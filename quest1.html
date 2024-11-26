@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>question</title>
+    <link rel="icon" href="https://i.kym-cdn.com/photos/images/facebook/000/193/296/bd64ee6f-3590-4eb1-b657-e5bf45594c24.jpg">
+    <link rel="stylesheet" href="q1.css">
+</head>
+<body>
+    <div id="image-container">
+     <img id="melog"src="https://www.pngplay.com/wp-content/uploads/11/Mass-Effect-Logo-No-Background.png">
+    </div>
+    <div>
+        QUESTION #1 Who made Mass Effect
+        <form class="centered-form">
+            <div class="row">
+                <input type="radio" id="bioware" name="company" value="bioware">
+                <label for="bioware">Bioware</label>
+                
+                <input type="radio" id="activision" name="company" value="activision">
+                <label for="activision">Activision</label>
+            </div>
+            
+            <div class="row">
+                <input type="radio" id="UnknownWorlds" name="company" value="UnknownWorlds">
+                <label for="UnknownWorlds">Unknown Worlds</label>
+                
+                <input type="radio" id="VOODOO" name="company" value="VOODOO">
+                <label for="VOODOO">Voodoo</label>
+            </div>
+        </form>
+        
+        <button id="Butt"> Check answer</button> 
+        <button id="Butt2">Next question</button>
+        
+        
+        
+        
+    </div>
+    <script src="answerdatabase.js"></script>
+    <script>
+        let next=document.getElementById("Butt2")
+        
+        next.addEventListener("click",()=>{
+        window.location="q3.html"
+        })
+    </script>
+    
+</body>
+</html>
