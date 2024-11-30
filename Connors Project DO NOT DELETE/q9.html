@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 3</title>
+    <link rel="icon" href="https://i.kym-cdn.com/photos/images/facebook/000/193/296/bd64ee6f-3590-4eb1-b657-e5bf45594c24.jpg">
+    <link rel="stylesheet" href="q1.css">
+</head>
+<body>
+    <div id="image-container">
+        <img id="melog" src="https://www.pngplay.com/wp-content/uploads/11/Mass-Effect-Logo-No-Background.png" alt="Mass Effect Logo">
+    </div>
+
+    <div class="question-container">
+        <p class="question">True/False Female sheppards actress is from Labrador</p>
+
+        <form class="centered-form">
+            <div class="row">
+                <input type="radio" id="Truer" name="ans" value="t">
+                <label for="">True</label>
+            </div>
+
+            <div class="row">
+                <input type="radio" id="False" name="ans" value="f">
+                <label for="f">False</label>
+            </div>
+        </form>   
+        <div class="button-container">
+            <button id="Butt">Check answer</button>
+            <button id="Butt2">Next question</button>
+        </div>     
+    </div>
+    <script src="answerdatabase.js"></script>
+    <script>
+        Butt2.addEventListener("click",()=>{
+            window.location="q10.html"
+        })
+    </script>
+</body>
+</html>

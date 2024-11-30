@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>q4</title>
+    <link rel="icon" href="https://i.kym-cdn.com/photos/images/facebook/000/193/296/bd64ee6f-3590-4eb1-b657-e5bf45594c24.jpg">
+    <link rel="stylesheet" href="q1.css">
+</head>
+<body>
+
+    <div id="image-container">
+        <img id="melog" src="https://www.pngplay.com/wp-content/uploads/11/Mass-Effect-Logo-No-Background.png" alt="Mass Effect Logo">
+    </div>
+
+    <div class="question-container">
+        <p class="question">On Eden Prime you rescue he last Prothean. Whats his name?</p>
+
+        <form class="centered-form">
+            <div class="row">
+                <input type="radio" id="Joe" name="ans" value="Joe">
+                <label for="Joe">Joe</label>
+            </div>
+            
+            <div class="row">
+                <input type="radio" id="Shrek" name="ans" value="Shrek">
+                <label for="Shrek">Shrek</label>
+            </div>
+
+            <div class="row">
+                <input type="radio" id="Javik" name="ans" value="Javik">
+                <label for="Javik">Javik</label>
+            </div>
+
+            <div class="row">
+                <input type="radio" id="Greg" name="ans" value="Greg">
+                <label for="Greg">Greg</label>
+            </div>
+        </form>
+
+        <div class="button-container">
+            <button id="Butt">Check answer</button>
+            <button id="Butt2">Next question</button>
+        </div>
+    </div>
+
+    <script src="answerdatabase.js"></script>
+    <script>
+        Butt2.addEventListener("click",()=> {
+            window.location="q6.html"
+        });
+    </script>
+</body>
+</html>

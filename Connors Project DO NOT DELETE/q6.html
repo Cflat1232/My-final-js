@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 3</title>
+    <link rel="icon" href="https://i.kym-cdn.com/photos/images/facebook/000/193/296/bd64ee6f-3590-4eb1-b657-e5bf45594c24.jpg">
+    <link rel="stylesheet" href="q1.css">
+</head>
+<body>
+    <div id="image-container">
+        <img id="melog" src="https://www.pngplay.com/wp-content/uploads/11/Mass-Effect-Logo-No-Background.png" alt="Mass Effect Logo">
+    </div>
+
+    <div class="question-container">
+        <p class="question">What year does Mass effect 1 take place</p>
+
+        <form class="centered-form">
+            <div class="row">
+                <input type="radio" id="1999" name="ans" value="1999">
+                <label for="1999">1999</label>
+            </div>
+            
+            <div class="row">
+                <input type="radio" id="2000" name="ans" value="2000">
+                <label for="2000">2000</label>
+            </div>
+
+            <div class="row">
+                <input type="radio" id="0" name="ans" value="0">
+                <label for="0">0</label>
+            </div>
+
+            <div class="row">
+                <input type="radio" id="2183" name="ans" value="2183">
+                <label for="2183">2183</label>
+            </div>
+        </form>
+
+        <div class="button-container">
+            <button id="Butt">Check answer</button>
+            <button id="Butt2">Next question</button>
+        </div>
+    </div>
+
+    <script src="answerdatabase.js"></script>
+    <script>
+        Butt2.addEventListener("click",()=>{
+            window.location="q7.html"
+        })
+    </script>
+</body>
+</html>
